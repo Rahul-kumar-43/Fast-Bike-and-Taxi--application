@@ -1,0 +1,8 @@
+.contact-hero {
+    /* Using a solid color as fallback instead of image */
+    background-color: #3b82f6; /* Blue color */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add any additional custom styles for the Contact Us page here */

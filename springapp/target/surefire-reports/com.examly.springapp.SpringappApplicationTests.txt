@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 20, Errors: 0, Skipped: 0, Time elapsed: 3.002 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+com.examly.springapp.SpringappApplicationTests.test_CorsConfiguration_Has_Configuration_Annotation  Time elapsed: 0.253 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.configuration.CorsConfiguration or annotation org.springframework.context.annotation.Configuration does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassHasAnnotation(SpringappApplicationTests.java:197)
+	at com.examly.springapp.SpringappApplicationTests.test_CorsConfiguration_Has_Configuration_Annotation(SpringappApplicationTests.java:159)
+
+com.examly.springapp.SpringappApplicationTests.test_Repository_Folder_Exists  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_Repository_Folder_Exists(SpringappApplicationTests.java:87)
+
+com.examly.springapp.SpringappApplicationTests.test_Service_Folder_Exists  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_Service_Folder_Exists(SpringappApplicationTests.java:95)
+
+com.examly.springapp.SpringappApplicationTests.test_Biketaxi_File_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_Biketaxi_File_Exists(SpringappApplicationTests.java:80)
+
+com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_phoneNumber_Field  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field phoneNumber in class com.examly.springapp.model.Biketaxi does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:176)
+	at com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_phoneNumber_Field(SpringappApplicationTests.java:143)
+
+com.examly.springapp.SpringappApplicationTests.test_ApiController_Class_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.controller.ApiController does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:167)
+	at com.examly.springapp.SpringappApplicationTests.test_ApiController_Class_Exists(SpringappApplicationTests.java:108)
+
+com.examly.springapp.SpringappApplicationTests.test_BiketaxiRepo_Class_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.repository.BiketaxiRepo does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:167)
+	at com.examly.springapp.SpringappApplicationTests.test_BiketaxiRepo_Class_Exists(SpringappApplicationTests.java:113)
+
+com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_name_Field  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field name in class com.examly.springapp.model.Biketaxi does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:176)
+	at com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_name_Field(SpringappApplicationTests.java:128)
+
+com.examly.springapp.SpringappApplicationTests.test_BiketaxiModel_Class_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.model.Biketaxi does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:167)
+	at com.examly.springapp.SpringappApplicationTests.test_BiketaxiModel_Class_Exists(SpringappApplicationTests.java:123)
+
+com.examly.springapp.SpringappApplicationTests.test_configuration_Folder_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_configuration_Folder_Exists(SpringappApplicationTests.java:103)
+
+com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_bikeNumber_Field  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field bikeNumber in class com.examly.springapp.model.Biketaxi does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:176)
+	at com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_bikeNumber_Field(SpringappApplicationTests.java:133)
+
+com.examly.springapp.SpringappApplicationTests.test_CorsConfiguration_Class_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.configuration.CorsConfiguration does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:167)
+	at com.examly.springapp.SpringappApplicationTests.test_CorsConfiguration_Class_Exists(SpringappApplicationTests.java:154)
+
+com.examly.springapp.SpringappApplicationTests.testgetAllBiketaxi  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.testgetAllBiketaxi(SpringappApplicationTests.java:48)
+
+com.examly.springapp.SpringappApplicationTests.test_model_Directory_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_model_Directory_Exists(SpringappApplicationTests.java:73)
+
+com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_age_Field  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Field age in class com.examly.springapp.model.Biketaxi does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkFieldExists(SpringappApplicationTests.java:176)
+	at com.examly.springapp.SpringappApplicationTests.test_Biketaxi_Model_Has_age_Field(SpringappApplicationTests.java:138)
+
+com.examly.springapp.SpringappApplicationTests.test_Controller_Directory_Exists  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_Controller_Directory_Exists(SpringappApplicationTests.java:59)
+
+com.examly.springapp.SpringappApplicationTests.test_ApiController_File_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.test_ApiController_File_Exists(SpringappApplicationTests.java:66)
+
+com.examly.springapp.SpringappApplicationTests.testaddBiketaxi  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.testaddBiketaxi(SpringappApplicationTests.java:38)
+
+com.examly.springapp.SpringappApplicationTests.test_BiketaxiRepo_Extends_JpaRepository  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.repository.BiketaxiRepo or interface org.springframework.data.jpa.repository.JpaRepository does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassImplementsInterface(SpringappApplicationTests.java:186)
+	at com.examly.springapp.SpringappApplicationTests.test_BiketaxiRepo_Extends_JpaRepository(SpringappApplicationTests.java:149)
+
+com.examly.springapp.SpringappApplicationTests.test_BiketaxiService_Class_Exists  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Class com.examly.springapp.service.BiketaxiService does not exist.
+	at com.examly.springapp.SpringappApplicationTests.checkClassExists(SpringappApplicationTests.java:167)
+	at com.examly.springapp.SpringappApplicationTests.test_BiketaxiService_Class_Exists(SpringappApplicationTests.java:118)
+

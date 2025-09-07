@@ -1,0 +1,24 @@
+.services-hero {
+    /* Using a solid color as fallback instead of image */
+    background-color: #4b5563; /* Gray color */
+    background-size: cover;
+    background-position: center;
+}
+
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+.service-card:hover .service-icon {
+    background-color: rgba(0, 0, 0, 0.1);
+}

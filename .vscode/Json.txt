@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Rahul Kumar",
+    "bikeNumber": "DL-01-AB-1234",
+    "age": 28,
+    "phoneNumber": "9876543210",
+    "password": "rahul123"
+  },
+  {
+    "name": "Amit Singh",
+    "bikeNumber": "DL-02-CD-5678",
+    "age": 32,
+    "phoneNumber": "8765432109",
+    "password": "amit456"
+  },
+  {
+    "name": "Priya Sharma",
+    "bikeNumber": "HR-23-EF-9012",
+    "age": 26,
+    "phoneNumber": "7654321098",
+    "password": "priya789"
+  },
+  {
+    "name": "Vikram Patel",
+    "bikeNumber": "MH-04-GH-3456",
+    "age": 30,
+    "phoneNumber": "6543210987",
+    "password": "vikram123"
+  },
+  {
+    "name": "Neha Gupta",
+    "bikeNumber": "UP-15-IJ-7890",
+    "age": 25,
+    "phoneNumber": "5432109876",
+    "password": "neha456"
+  }
+]
