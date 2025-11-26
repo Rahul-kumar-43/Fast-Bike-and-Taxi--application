@@ -67,7 +67,8 @@ function ApplyForm() {
                 // Remove confirmPassword as it's not needed in the backend
                 delete submitData.confirmPassword;
 
-                const response = await fetch('http://localhost:8080/addBiketaxi', {
+                const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+                const response = await fetch(`${API_URL}/addBiketaxi`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
